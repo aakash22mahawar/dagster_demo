@@ -1,0 +1,6 @@
+python_logs:
+  dagster_handler_config:
+    handlers:
+      console:
+        class: logging.StreamHandler
+        level: INFO
